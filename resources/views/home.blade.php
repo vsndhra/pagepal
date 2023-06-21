@@ -7,7 +7,7 @@
     <div class="container pt-5">
         <div class="row">
             <div class="col-md-6">
-                <img src="{{ asset('images/books.jpg') }}" alt="Illustration of Books" style="padding-top: 40px;">
+                <img src="{{ asset('images/books.jpg') }}" class="img-fluid" alt="Illustration of Books" style="padding-top: 40px;">
                 <p class="text-center">
                     <small class="text-muted">
                         Illustration from <a href="https://www.tumblr.com/mostlyghostie" traget="_blank">tumblr/mostlyghostie</a>. 

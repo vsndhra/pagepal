@@ -11,7 +11,7 @@
                 <p class="lead">To search our database of 5,000 books, read reviews by readers like you, or add your own reviews, you’ll need to register.</p>
                 <p class="lead">Registration at Page Pal is free, and we will never share your information.</p>
                 <div class="text-center">
-                    <img class="img-fluid shrink center-block" src="{{ asset('images/books.jpg') }}" alt="Illustration of Books" style="max-width: 320px; vertical-align: middle;">
+                    <img class="img-fluid" src="{{ asset('images/books.jpg') }}" alt="Illustration of Books" style="max-width: 320px; vertical-align: middle;">
                     <p class="text-center">
                         <small class="text-muted"> Illustration from <a href="" target="_blank">tumblr/mostlyghostie</a>.</small>
                     </p>

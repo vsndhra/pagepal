@@ -12,28 +12,31 @@
 </head>
 <body>
     <header>
-        <nav class="navbar bg-dark border-bottom fixed-top border-bottom-dark" data-bs-theme="dark" style="padding: 10px;">
-            <ul class="list-group list-group-horizontal-sm">
-                <li class="navbar-brand">
-                    <strong>Page Pal</strong>
-                </li>
-            </ul>
-            <div class="menu-group">
-                <ul class="list-group list-group-horizontal-sm">
-                    <li class="list-group-item" style="border: none;">
-                        <a href="#">Home </a>
-                    </li>
-                    <li class="list-group-item" style="border: none;">
-                        <a href="#">Search </a>
-                    </li>
-                    <li class="list-group-item" style="border: none;">
-                        <a href="#">Logout </a>
-                    </li>
-                </ul>  
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><strong>Page Pal</strong></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item justify-content-end">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item justify-content-end">
+                            <a class="nav-link" href="#">Search</a>
+                        </li>
+                        <li class="nav-item justify-content-end">
+                            <a class="nav-link" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
-    <div class="container-fluid" style="margin-top: 50px;">
+
+    <div class="container mt-5">
         @yield('content')
     </div>
 </body>
