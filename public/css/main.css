@@ -1,0 +1,27 @@
+body {
+    background-color: #9ABCAD; 
+}
+#form-box{
+    background-color: #E0D5B2; 
+    box-sizing: border-box;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
